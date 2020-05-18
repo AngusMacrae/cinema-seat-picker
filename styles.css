@@ -59,15 +59,10 @@ body {
     margin-left: 18px;
 }
 
-.seat:not(.occupied):hover {
+.container .seat:not(.occupied):hover {
     cursor: pointer;
     transform: scale(1.2);
     transition: transform 0.05s;
-}
-
-.legend .seat:not(.occupied):hover {
-    cursor: default;
-    transform: scale(1);
 }
 
 .legend {
